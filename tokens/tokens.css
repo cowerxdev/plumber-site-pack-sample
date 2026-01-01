@@ -1,0 +1,51 @@
+/* Generated from tokens.json by build.py. Edit tokens.json, not this file. */
+@font-face { font-family: Inter; src: url("fonts/inter-latin-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: Inter; src: url("fonts/inter-latin-600.woff2") format("woff2"); font-weight: 600 800; font-display: swap; }
+:root {
+  --pk-color-bg: #F5F2EC; /* page ground */
+  --pk-color-surface: #FFFFFF; /* cards, form, header */
+  --pk-color-sunk: #ECE7DE; /* quiet bands, chips */
+  --pk-color-ink: #0E1B26; /* body text */
+  --pk-color-muted: #4B5763; /* secondary text */
+  --pk-color-line: #D9D2C5; /* hairlines, input borders */
+  --pk-color-brand: #0F2E47; /* header band, hero, footer */
+  --pk-color-brand-deep: #0A1F31; /* hero ground, footer */
+  --pk-color-on-brand: #F5F2EC; /* text on brand */
+  --pk-color-on-brand-muted: #A9B8C6; /* secondary text on brand */
+  --pk-color-call: #D2461A; /* tap-to-call buttons ONLY */
+  --pk-color-call-hover: #B33A13; /* tap-to-call hover/active */
+  --pk-color-on-call: #FFFFFF; /* text on call */
+  --pk-color-water: #5FB3D9; /* small accents on brand: rules, icons, eyebrow dots */
+  --pk-color-alert-bg: #FFF1DC; /* safety note ground */
+  --pk-color-alert-ink: #6B3A06; /* safety note text */
+  --pk-color-ok: #1F7A4D; /* verified ticks */
+  --pk-font-body: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --pk-font-display: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --pk-font-num: Inter, ui-sans-serif, system-ui, sans-serif;
+  --pk-size-xs: 12px;
+  --pk-size-sm: 14px;
+  --pk-size-md: 17px;
+  --pk-size-lg: 20px;
+  --pk-size-xl: 26px;
+  --pk-size-2xl: clamp(28px, 4.4vw, 40px);
+  --pk-size-3xl: clamp(32px, 3.6vw + 18px, 58px);
+  --pk-space-1: 4px;
+  --pk-space-2: 8px;
+  --pk-space-3: 12px;
+  --pk-space-4: 16px;
+  --pk-space-5: 24px;
+  --pk-space-6: 32px;
+  --pk-space-7: 48px;
+  --pk-space-8: 64px;
+  --pk-space-9: 96px;
+  --pk-radius-sm: 6px;
+  --pk-radius-md: 10px;
+  --pk-radius-pill: 999px;
+  --pk-tap-min: 48px; /* minimum tap target height */
+  --pk-tap-call: 56px; /* call button height */
+  --pk-layout-max: 1160px;
+  --pk-layout-gutter: 20px;
+  --pk-layout-measure: 62ch;
+  --pk-shadow-card: 0 1px 2px rgba(14,27,38,.06), 0 8px 24px rgba(14,27,38,.06);
+  --pk-shadow-dock: 0 -6px 24px rgba(10,31,49,.18);
+}

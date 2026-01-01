@@ -1,0 +1,30 @@
+<!-- component: hero | evidence: tap_to_call.ohio_sample visible_phone.ohio_sample | reasoning: r.emergency r.one-action r.while-you-wait -->
+<section class="pk-hero" aria-labelledby="pk-hero-title">
+  <div class="pk-wrap pk-hero__inner">
+    <div class="pk-hero__main">
+    [[IF_OPEN_24_7]]<p class="pk-eyebrow pk-eyebrow--live"><span class="pk-dot" aria-hidden="true"></span>24/7 emergency plumbing · [[CITY]]</p>[[ELSE]]<p class="pk-eyebrow pk-eyebrow--live">Plumber · [[CITY]]</p>[[/IF]]
+    <h1 id="pk-hero-title" class="pk-hero__title">Water where it shouldn't be? <em>[[IF_LICENSED]]Talk to a licensed plumber now.[[ELSE]]Call a plumber now.[[/IF]]</em></h1>
+    <p class="pk-hero__lead">[[IF_OPEN_24_7]]A person answers day and night.[[ELSE]]Leaks, clogs, drains and water heaters in [[CITY]] and nearby.[[/IF]][[IF_PRICE_FIRST]] You get the price before any work starts.[[/IF]]</p>
+    <div class="pk-hero__actions">
+      <a class="pk-call pk-call--hero" href="tel:[[PHONE_TEL]]">
+        <svg class="pk-icon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6.6 10.8a15.2 15.2 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1Z" fill="currentColor"/></svg>
+        <span>Call [[PHONE_DISPLAY]]</span>
+      </a>
+    </div>
+    [[IF_LICENSED|INSURED|PRICE_FIRST]]<ul class="pk-hero__proof" aria-label="Why call us">
+      [[IF_LICENSED]]<li><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M6.2 11.2 2.9 7.9l1.1-1.1 2.2 2.2 5.8-5.8 1.1 1.1Z" fill="currentColor"/></svg>Licensed plumbers</li>[[/IF]]
+      [[IF_INSURED]]<li><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M6.2 11.2 2.9 7.9l1.1-1.1 2.2 2.2 5.8-5.8 1.1 1.1Z" fill="currentColor"/></svg>Insured</li>[[/IF]]
+      [[IF_PRICE_FIRST]]<li><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M6.2 11.2 2.9 7.9l1.1-1.1 2.2 2.2 5.8-5.8 1.1 1.1Z" fill="currentColor"/></svg>Price before work</li>[[/IF]]
+    </ul>[[/IF]]
+    </div>
+    <aside class="pk-wait" aria-labelledby="pk-wait-title">
+      <p class="pk-wait__k" id="pk-wait-title">Water leaking right now?</p>
+      <ol class="pk-wait__steps">
+        <li><strong>Shut off the main valve.</strong> It's usually where the water line comes in: basement wall, crawlspace or near the water heater. Turn it clockwise.</li>
+        <li><strong>Kill power to wet areas.</strong> If water is near outlets or the panel, stay out and tell us when you call.</li>
+        <li><strong>Call us.</strong> Tell us what you've done so far.</li>
+      </ol>
+      <a class="pk-wait__call" href="tel:[[PHONE_TEL]]">[[PHONE_DISPLAY]]</a>
+    </aside>
+  </div>
+</section>
