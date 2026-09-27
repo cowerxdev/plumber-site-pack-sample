@@ -9,6 +9,10 @@ These are screenshots. Open [`preview.html`](preview.html) for the live page.
 
 This is a small, usable slice of the Plumber Site Pack for building a local plumber's homepage with Claude Code. It includes design tokens, the header and call button hero, one headline pattern, and the evidence for those choices. The sample is MIT licensed; the full pack has its own license.
 
+## Evidence snapshot
+
+74% of 377 plumber homepages in nine Ohio counties had a tap-to-call link (95% range 69% to 78%), checked in rendered Chromium on 2026-09-25. See [EVIDENCE.md](EVIDENCE.md) for the methods and other measured choices.
+
 ## 30-second quickstart
 
 1. Copy this folder into your project as `plumber-sample/`.
