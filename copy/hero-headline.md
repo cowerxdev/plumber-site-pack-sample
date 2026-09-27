@@ -27,5 +27,5 @@ fears: that no one will answer, and that the bill will be a surprise.
 - Keep it under 12 words, so it fits on three lines at 375px.
 - The call button under it always shows the number.
 
-**Why:** 67% of 30 sampled Ohio plumber homepages had a tap-to-call link when checked in rendered Chromium (2026-09-25). That makes tap-to-call likely table stakes (most sampled sites have it, though the range dips below half) for
+**Why:** 74% of 377 plumber homepages in nine Ohio counties had a tap-to-call link (95% range 69% to 78%), checked in rendered Chromium on 2026-09-25. That makes tap-to-call table stakes (most sites here have it) for
 plumber sites here. The headline's only job is to send people to that button.

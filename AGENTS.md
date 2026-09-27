@@ -12,8 +12,8 @@ You are building a local plumber homepage with this sample. Read `EVIDENCE.md` b
 
 ## Build the opening in this order
 
-1. `components/01-header.html` (tap_to_call.ohio_sample, visible_phone.ohio_sample)
-2. `components/02-hero.html` (tap_to_call.ohio_sample, visible_phone.ohio_sample)
+1. `components/01-header.html` (tap_to_call.ohio9, visible_phone.ohio9)
+2. `components/02-hero.html` (tap_to_call.ohio9, visible_phone.ohio9)
 
 Link `tokens/tokens.css` first, then `components/pack.css`. Keep the `pk-` class names. If the target stack is React, Astro, Next or another framework, keep the component markup and classes when adapting it.
 
@@ -72,7 +72,7 @@ Blocks can nest; resolve the inner ones the same way.
 
 ## Use the evidence carefully
 
-`EVIDENCE.md` measures how common a feature was among rendered Ohio plumber sites. It does not prove a feature causes more calls. Quote its sentences exactly if asked why a choice was made. The measurements date to 2026-09-25 (A rendered sample of Ohio homepages per trade, checksum-verified (cowerx ohio_identity)).
+`EVIDENCE.md` measures how common a feature was among rendered Ohio plumber sites. It does not prove a feature causes more calls. Quote its sentences exactly if asked why a choice was made. The measurements date to 2026-09-25 (Rendered homepages in all nine Ohio study counties and a rendered sample of Ohio homepages per trade, checksum-verified (cowerx ohio_identity)).
 
 ## Done means
 
